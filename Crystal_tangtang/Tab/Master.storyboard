@@ -101,7 +101,7 @@
                                                     <constraint firstItem="Utv-7U-ho9" firstAttribute="leading" secondItem="znk-5E-Q9m" secondAttribute="trailing" constant="23" id="zwC-a3-SBT"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qez-rI-9GE">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qez-rI-9GE" userLabel="Play View">
                                                 <rect key="frame" x="0.0" y="184" width="330" height="182"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYP-BD-xzD">
@@ -196,6 +196,11 @@
                         <imageReference key="image" image="homekit" catalog="system" symbolScale="large"/>
                         <imageReference key="selectedImage" image="homekit" catalog="system" symbolScale="large"/>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="foodView" destination="XR3-fv-Ijg" id="ynm-GP-rH1"/>
+                        <outlet property="playView" destination="Qez-rI-9GE" id="dv1-DV-O2I"/>
+                        <outlet property="userView" destination="blK-Cw-bDn" id="ie6-pm-fW9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qVl-fU-PKQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
