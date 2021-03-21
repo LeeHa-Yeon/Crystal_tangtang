@@ -7,5 +7,6 @@ target 'Crystal_tangtang' do
 
   # Pods for Crystal_tangtang
   pod 'KakaoSDK'
+  pod 'lottie-ios'
 
 end
