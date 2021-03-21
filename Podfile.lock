@@ -35,9 +35,11 @@ PODS:
   - KakaoSDKUser (2.4.1):
     - KakaoSDKAuth (= 2.4.1)
     - KakaoSDKCommon (= 2.4.1)
+  - lottie-ios (3.2.1)
 
 DEPENDENCIES:
   - KakaoSDK
+  - lottie-ios
 
 SPEC REPOS:
   trunk:
@@ -51,6 +53,7 @@ SPEC REPOS:
     - KakaoSDKTalk
     - KakaoSDKTemplate
     - KakaoSDKUser
+    - lottie-ios
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
@@ -63,7 +66,8 @@ SPEC CHECKSUMS:
   KakaoSDKTalk: 749828662e4ac7a9f17bb1664b58526da289d18c
   KakaoSDKTemplate: 8bb288765bfc0195631da809b2d707f09495acdf
   KakaoSDKUser: 11955811d99d1ff1f1dfd5428afe69937e31ccef
+  lottie-ios: 106e92eaf11fbed0a76590b4cdb9b5ec26123ff7
 
-PODFILE CHECKSUM: c435fc358cc28d43811c13372225fbb51b1297a0
+PODFILE CHECKSUM: c579ae34eada3d0227b043029fe5ea2f251ebee2
 
 COCOAPODS: 1.10.1
