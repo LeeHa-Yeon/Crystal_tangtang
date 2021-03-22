@@ -33,7 +33,7 @@ class LoadingViewController: UIViewController {
         animationView.loopMode = .loop
 
         //애니메이션 종료
-        animationView.pause()
+        //animationView.pause()
 
     }
     
