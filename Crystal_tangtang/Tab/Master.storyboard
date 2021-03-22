@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Location View Controller-->
         <scene sceneID="aS0-Fp-A2P">
             <objects>
-                <viewController id="UdR-Dn-Vqp" sceneMemberID="viewController">
+                <viewController id="UdR-Dn-Vqp" customClass="LocationViewController" customModule="Crystal_tangtang" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z82-hG-FL6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

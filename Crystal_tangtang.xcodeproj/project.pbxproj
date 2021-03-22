@@ -24,6 +24,7 @@
 		9F74DCAC260619180012ED28 /* Loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F74DCAB260619180012ED28 /* Loading.storyboard */; };
 		9F74DCAF2606192A0012ED28 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F74DCAE2606192A0012ED28 /* Login.storyboard */; };
 		9F74DCB2260619360012ED28 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74DCB1260619360012ED28 /* LoginViewController.swift */; };
+		9FAA2C8E260888C400A53C15 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAA2C8D260888C400A53C15 /* LocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		9F74DCAB260619180012ED28 /* Loading.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Loading.storyboard; sourceTree = "<group>"; };
 		9F74DCAE2606192A0012ED28 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		9F74DCB1260619360012ED28 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9FAA2C8D260888C400A53C15 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		B47389710FB41C937869C64E /* Pods_Crystal_tangtang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crystal_tangtang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F797F5CB5868DDB6FF1C74A8 /* Pods-Crystal_tangtang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crystal_tangtang.debug.xcconfig"; path = "Target Support Files/Pods-Crystal_tangtang/Pods-Crystal_tangtang.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,10 +67,11 @@
 		9F6EE30C260759F3002A6663 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
+				9F6EE31726075D64002A6663 /* Master.storyboard */,
+				9F6EE31426075D49002A6663 /* MasterViewController.swift */,
+				9FAA2C8C260888B000A53C15 /* Location */,
 				9F6EE32B260777D5002A6663 /* UserInfo */,
 				9F6EE31A26075D9E002A6663 /* Home */,
-				9F6EE31426075D49002A6663 /* MasterViewController.swift */,
-				9F6EE31726075D64002A6663 /* Master.storyboard */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -142,6 +145,14 @@
 				9F74DCB1260619360012ED28 /* LoginViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		9FAA2C8C260888B000A53C15 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				9FAA2C8D260888C400A53C15 /* LocationViewController.swift */,
+			);
+			path = Location;
 			sourceTree = "<group>";
 		};
 		BB0914573EB60B8EE28FBDDE /* Frameworks */ = {
@@ -288,6 +299,7 @@
 				9F74DC7C260617F00012ED28 /* AppDelegate.swift in Sources */,
 				9F74DC7E260617F00012ED28 /* SceneDelegate.swift in Sources */,
 				9F6EE31C26075DC8002A6663 /* HomeViewController.swift in Sources */,
+				9FAA2C8E260888C400A53C15 /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
