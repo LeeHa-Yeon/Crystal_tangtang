@@ -10,11 +10,14 @@ import NMapsMap
 
 class LocationViewController: UIViewController {
 
+    
+    @IBOutlet weak var MapView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let mapView = NMFMapView(frame: view.frame)
-        view.addSubview(mapView)
+        MapView.addSubview(mapView)
 
     }
 
