@@ -8,16 +8,17 @@
 import UIKit
 import NMapsMap
 
+
 class LocationViewController: UIViewController {
 
     
-    @IBOutlet weak var MapView: UIView!
+    @IBOutlet weak var naverMapView: NMFNaverMapView!
+    var mapView : NMFMapView {
+        return naverMapView.mapView
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let mapView = NMFMapView(frame: view.frame)
-        MapView.addSubview(mapView)
 
     }
 

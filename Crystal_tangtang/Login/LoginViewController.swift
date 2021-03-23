@@ -25,6 +25,7 @@ class LoginViewController: UIViewController {
                     // 화면 이동
                     let board = UIStoryboard(name: "Master", bundle: nil)
                     let vc = board.instantiateViewController(withIdentifier: "MasterViewController")
+                    vc.modalPresentationStyle = .fullScreen
                     self.present(vc, animated: true, completion: nil)
 
 
