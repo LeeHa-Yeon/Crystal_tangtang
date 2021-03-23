@@ -66,12 +66,17 @@
                                 </state>
                             </button>
                             <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="rQt-34-oPe">
-                                <rect key="frame" x="30" y="342.66666666666674" width="368" height="368"/>
+                                <rect key="frame" x="30" y="352.66666666666674" width="368" height="368"/>
                                 <color key="backgroundColor" red="0.79922786170000004" green="1" blue="0.85330242889999997" alpha="0.36808621149999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="rQt-34-oPe" secondAttribute="height" id="QwT-Wc-wHo"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xu3-t3-g9X">
+                                <rect key="frame" x="196.66666666666666" y="750.66666666666663" width="35" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="지정"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tWo-4R-Ofj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -83,13 +88,15 @@
                             <constraint firstItem="H8l-Y2-i7y" firstAttribute="leading" secondItem="tWo-4R-Ofj" secondAttribute="leading" constant="30" id="CPk-uR-RIH"/>
                             <constraint firstItem="cDq-6B-EgS" firstAttribute="top" secondItem="mTs-r0-ddG" secondAttribute="bottom" constant="37" id="Dcz-y8-w8r"/>
                             <constraint firstItem="tWo-4R-Ofj" firstAttribute="trailing" secondItem="rQt-34-oPe" secondAttribute="trailing" constant="30" id="JSM-HJ-svz"/>
+                            <constraint firstItem="Xu3-t3-g9X" firstAttribute="centerX" secondItem="z82-hG-FL6" secondAttribute="centerX" id="O3a-Ey-YLb"/>
                             <constraint firstItem="H8l-Y2-i7y" firstAttribute="top" secondItem="cDq-6B-EgS" secondAttribute="bottom" constant="30" id="RdM-hf-1Cr"/>
                             <constraint firstItem="lno-Sd-Owy" firstAttribute="leading" secondItem="H8l-Y2-i7y" secondAttribute="trailing" constant="10" id="UQu-i0-icc"/>
                             <constraint firstItem="tWo-4R-Ofj" firstAttribute="trailing" secondItem="XYE-RM-0sl" secondAttribute="trailing" constant="30" id="UyO-09-RZk"/>
                             <constraint firstItem="mTs-r0-ddG" firstAttribute="leading" secondItem="tWo-4R-Ofj" secondAttribute="leading" id="X0L-Vh-c7Y"/>
                             <constraint firstItem="mTs-r0-ddG" firstAttribute="top" secondItem="tWo-4R-Ofj" secondAttribute="top" id="aAm-xt-SjR"/>
                             <constraint firstItem="XYE-RM-0sl" firstAttribute="top" secondItem="H8l-Y2-i7y" secondAttribute="bottom" constant="35" id="cKd-LU-oEj"/>
-                            <constraint firstItem="rQt-34-oPe" firstAttribute="top" secondItem="XYE-RM-0sl" secondAttribute="bottom" constant="30" id="hyo-h5-I4B"/>
+                            <constraint firstItem="Xu3-t3-g9X" firstAttribute="top" secondItem="rQt-34-oPe" secondAttribute="bottom" constant="30" id="gRm-eX-qDS"/>
+                            <constraint firstItem="rQt-34-oPe" firstAttribute="top" secondItem="XYE-RM-0sl" secondAttribute="bottom" constant="40" id="hyo-h5-I4B"/>
                             <constraint firstItem="lno-Sd-Owy" firstAttribute="top" secondItem="mTs-r0-ddG" secondAttribute="bottom" constant="120" id="m9Q-aQ-LOb"/>
                             <constraint firstItem="XYE-RM-0sl" firstAttribute="leading" secondItem="tWo-4R-Ofj" secondAttribute="leading" constant="30" id="mNr-mP-Oel"/>
                         </constraints>
@@ -398,7 +405,7 @@
         <!--Master View Controller-->
         <scene sceneID="7EW-35-BGC">
             <objects>
-                <tabBarController storyboardIdentifier="Master" id="Flk-mA-dee" customClass="MasterViewController" customModule="Crystal_tangtang" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MasterViewController" id="Flk-mA-dee" customClass="MasterViewController" customModule="Crystal_tangtang" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tP6-ge-pCN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

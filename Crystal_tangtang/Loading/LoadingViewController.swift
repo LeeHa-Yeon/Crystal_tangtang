@@ -10,6 +10,7 @@ import Lottie
 
 class LoadingViewController: UIViewController {
     
+  
     //Lottie AnimationView 생성
     let animationView = AnimationView(name:"loadingAnimation")
 
@@ -30,13 +31,20 @@ class LoadingViewController: UIViewController {
         animationView.play()
 
         //애니메이션 재생모드( .loop = 애니메이션 무한재생)
-        animationView.loopMode = .loop
+        //animationView.loopMode = .loop
 
         //애니메이션 종료
         //animationView.pause()
+        
 
     }
     
     
-
+    @IBAction func moveToLogin(_ sender: Any) {
+        let board = UIStoryboard(name: "Login", bundle: nil)
+        let vc = board.instantiateViewController(withIdentifier: "LoginViewController")
+        self.present(vc, animated: true, completion: nil)
+        
+    }
+    
 }
