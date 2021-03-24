@@ -9,5 +9,6 @@ target 'Crystal_tangtang' do
   pod 'KakaoSDK'
   pod 'lottie-ios'
   pod 'NMapsMap'
+  pod 'Alamofire', '~> 5.2'
 
 end
