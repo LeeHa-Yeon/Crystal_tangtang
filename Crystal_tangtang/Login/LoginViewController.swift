@@ -21,12 +21,26 @@ class LoginViewController: UIViewController {
                     print(error)
                 }
                 else {
-                    print("loginWithKakaoAccount() success.")
+                    
+                    // 화면 이동
+                    let board = UIStoryboard(name: "Master", bundle: nil)
+                    let vc = board.instantiateViewController(withIdentifier: "MasterViewController")
+                    vc.modalPresentationStyle = .fullScreen
+                    self.present(vc, animated: true, completion: nil)
 
-                    //do something
+
+                    
+//                    let mvc = UIStoryboard(name: "Master", bundle: nil).instantiateViewController(withIdentifier: "MasterViewController")
+//                                    self.present(mvc, animated: true)
+                    print("login With KakaoAccount() success.")
+
                     _ = oauthToken
                 }
             }
     }
     
+    @IBAction func appleLoginButton(_ sender: Any) {
+        
+        print(" 애플 로그인 ")
+    }
 }

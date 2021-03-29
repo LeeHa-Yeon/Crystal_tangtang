@@ -39,6 +39,7 @@ PODS:
   - NMapsMap (3.11.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.2)
   - KakaoSDK
   - lottie-ios
   - NMapsMap
@@ -72,6 +73,6 @@ SPEC CHECKSUMS:
   lottie-ios: 106e92eaf11fbed0a76590b4cdb9b5ec26123ff7
   NMapsMap: e6dbea85c2c195c7532deb637a5e90fd70f94fed
 
-PODFILE CHECKSUM: 76c2cb791c1a8ddfaf2e2e60c239e0f4d4261dec
+PODFILE CHECKSUM: 523fd8887eac0ae36af5db7f65a2a49183ba53bd
 
 COCOAPODS: 1.10.1

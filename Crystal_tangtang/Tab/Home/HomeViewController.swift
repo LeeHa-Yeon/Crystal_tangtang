@@ -26,17 +26,20 @@ class HomeViewController: UIViewController {
         playView.addSubview(playanimationView)
         userView.addSubview(useranimationView)
         
-        foodanimationView.frame = foodanimationView.superview!.bounds
-        foodanimationView.contentMode = .scaleAspectFill
+        foodanimationView.frame = CGRect(x:10, y:44, width:94, height:88)
+        // foodanimationView.frame = foodanimationView.superview!.bounds
+        foodanimationView.contentMode = .scaleAspectFit
         foodanimationView.play()
         foodanimationView.loopMode = .loop
         
-        playanimationView.frame = playanimationView.superview!.bounds
+        playanimationView.frame = CGRect(x:10, y:44, width:94, height:88)
+        // playanimationView.frame = playanimationView.superview!.bounds
         playanimationView.contentMode = .scaleAspectFit
         playanimationView.play()
         playanimationView.loopMode = .loop
         
-        useranimationView.frame = useranimationView.superview!.bounds
+        useranimationView.frame = CGRect(x:18, y:48, width:94, height:88)
+        // useranimationView.frame = useranimationView.superview!.bounds
         useranimationView.contentMode = .scaleAspectFit
         useranimationView.play()
         useranimationView.loopMode = .loop

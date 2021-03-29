@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import KakaoSDKUser
 
 class UserViewController: UIViewController {
 
@@ -14,4 +15,19 @@ class UserViewController: UIViewController {
 
     }
 
+    @IBAction func logoutButton(_ sender: Any) {
+        
+        UserApi.shared.logout {(error) in
+            if let error = error {
+                print(error)
+            }
+            else {
+                let board = UIStoryboard(name: "Login", bundle: nil)
+                let vc = board.instantiateViewController(withIdentifier: "LoginViewController")
+                self.present(vc, animated: true, completion: nil)
+                print("logout() success.")
+            }
+        }
+
+    }
 }
