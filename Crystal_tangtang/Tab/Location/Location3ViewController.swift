@@ -18,7 +18,8 @@ class Location3ViewController: UIViewController, SearchViewControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(mapView)
-        title = "iOS MapKit TEST"
+        // title = "iOS MapKit TEST"
+        title = "위치 검색 테스트창"
         
         let searchVC = SearchViewController()
         searchVC.delegate = self

@@ -48,6 +48,7 @@ class Location2ViewController: UIViewController, CLLocationManagerDelegate, UISe
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        title = " 현재 위치 가져오기 "
         self.myMap.setUserTrackingMode(.follow, animated: true)
         myMap.showsUserLocation = true // 현재 위치에 마커로 표시
         lblLocationInfo1.text = ""
