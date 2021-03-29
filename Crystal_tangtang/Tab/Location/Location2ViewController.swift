@@ -9,8 +9,15 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class Location2ViewController: UIViewController, CLLocationManagerDelegate {
+class Location2ViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDelegate {
     
+  
+    @IBAction func searchButton(_ sender: Any) {
+        let searchController = UISearchController(searchResultsController: nil)
+        searchController.searchBar.delegate.self
+        present(searchController, animated: true, completion: nil)
+//        searchController.searchBar.delegate.self
+    }
     
     @IBOutlet weak var myMap: MKMapView!
     @IBOutlet weak var lblLocationInfo1: UILabel!
@@ -25,6 +32,7 @@ class Location2ViewController: UIViewController, CLLocationManagerDelegate {
     
     // location manager : location 을 관리할 CLLocationManager
     // 지도 띄우기
+    // CLLocationManager: 위치정보와 관련된 이벤트를 처리하는 역할을 하는 객체
     var locationManager: CLLocationManager = CLLocationManager()
     // 내 위치 저장
     var currentLocation: CLLocation!
