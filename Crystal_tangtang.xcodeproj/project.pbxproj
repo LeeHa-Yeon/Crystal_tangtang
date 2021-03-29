@@ -24,6 +24,7 @@
 		9F74DCAC260619180012ED28 /* Loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F74DCAB260619180012ED28 /* Loading.storyboard */; };
 		9F74DCAF2606192A0012ED28 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F74DCAE2606192A0012ED28 /* Login.storyboard */; };
 		9F74DCB2260619360012ED28 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74DCB1260619360012ED28 /* LoginViewController.swift */; };
+		9F9215142611D5F200805B3B /* Location2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9215132611D5F200805B3B /* Location2ViewController.swift */; };
 		9FAA2C8E260888C400A53C15 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAA2C8D260888C400A53C15 /* LocationViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		9F74DCAB260619180012ED28 /* Loading.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Loading.storyboard; sourceTree = "<group>"; };
 		9F74DCAE2606192A0012ED28 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		9F74DCB1260619360012ED28 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9F9215132611D5F200805B3B /* Location2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location2ViewController.swift; sourceTree = "<group>"; };
 		9FAA2C8D260888C400A53C15 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		B47389710FB41C937869C64E /* Pods_Crystal_tangtang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crystal_tangtang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F797F5CB5868DDB6FF1C74A8 /* Pods-Crystal_tangtang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crystal_tangtang.debug.xcconfig"; path = "Target Support Files/Pods-Crystal_tangtang/Pods-Crystal_tangtang.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				9FAA2C8D260888C400A53C15 /* LocationViewController.swift */,
+				9F9215132611D5F200805B3B /* Location2ViewController.swift */,
 			);
 			path = Location;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				9F6EE32D260777FE002A6663 /* UserViewController.swift in Sources */,
 				9F6EE31526075D49002A6663 /* MasterViewController.swift in Sources */,
 				9F74DCB2260619360012ED28 /* LoginViewController.swift in Sources */,
+				9F9215142611D5F200805B3B /* Location2ViewController.swift in Sources */,
 				9F6EE3052607495D002A6663 /* LoadingViewController.swift in Sources */,
 				9F74DC7C260617F00012ED28 /* AppDelegate.swift in Sources */,
 				9F74DC7E260617F00012ED28 /* SceneDelegate.swift in Sources */,

@@ -27,6 +27,7 @@ class LocationViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // 권한은 View가 처음에 떴는데 한번 불러오는 거니까 viewDidLoad
         if !requestGPSPermission(){
             locationManager.requestAlwaysAuthorization()
         }
@@ -44,7 +45,9 @@ class LocationViewController: UIViewController {
     }
     
     
+    
     @IBAction func nowLocationButton(_ sender: Any) {
+        
         
     }
     
