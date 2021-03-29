@@ -11,24 +11,23 @@ import CoreLocation
 
 class Location2ViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDelegate {
     
-  
-    @IBAction func searchButton(_ sender: Any) {
-        let searchController = UISearchController(searchResultsController: nil)
-        searchController.searchBar.delegate.self
-        present(searchController, animated: true, completion: nil)
-//        searchController.searchBar.delegate.self
-    }
-    
-    @IBOutlet weak var myMap: MKMapView!
-    @IBOutlet weak var lblLocationInfo1: UILabel!
-    @IBOutlet weak var lblLocationInfo2: UILabel!
-    
     // 도봉구
     let dobongLoc = CLLocationCoordinate2D(latitude: 37.6658609, longitude: 127.0317674)
     // 은평구
     let eunpyeongLoc = CLLocationCoordinate2D(latitude: 37.6176125, longitude: 126.9227004)
     // 동대문구
     let dongdaemoonLoc = CLLocationCoordinate2D(latitude: 37.5838012, longitude: 127.0507003)
+    
+    @IBOutlet weak var myMap: MKMapView!
+    @IBOutlet weak var lblLocationInfo1: UILabel!
+    @IBOutlet weak var lblLocationInfo2: UILabel!
+    
+    @IBAction func searchButton(_ sender: Any) {
+        let searchController = UISearchController(searchResultsController: nil)
+        searchController.searchBar.delegate = self
+        present(searchController, animated: true, completion: nil)
+    }
+    
     
     // location manager : location 을 관리할 CLLocationManager
     // 지도 띄우기
@@ -145,26 +144,8 @@ class Location2ViewController: UIViewController, CLLocationManagerDelegate, UISe
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
- //
- //  Location2ViewController.swift
- //  Crystal_tangtang
- //
- //  Created by 이하연 on 2021/03/29.
- //
+
 
  import UIKit
  import MapKit

@@ -10,5 +10,6 @@ target 'Crystal_tangtang' do
   pod 'lottie-ios'
   pod 'NMapsMap'
   pod 'Alamofire', '~> 5.2'
+  pod 'FloatingPanel'
 
 end
