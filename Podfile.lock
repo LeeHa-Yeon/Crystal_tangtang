@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.4.1)
+  - FloatingPanel (2.3.0)
   - KakaoSDK (2.4.1):
     - KakaoSDKAuth (= 2.4.1)
     - KakaoSDKCommon (= 2.4.1)
@@ -40,6 +41,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
+  - FloatingPanel
   - KakaoSDK
   - lottie-ios
   - NMapsMap
@@ -47,6 +49,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - FloatingPanel
     - KakaoSDK
     - KakaoSDKAuth
     - KakaoSDKCommon
@@ -61,6 +64,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  FloatingPanel: 373478513a197cf140abd219ca9a9c049967332b
   KakaoSDK: 1e80d6877c0eac6a310f93c73fb15ca56c05f2bd
   KakaoSDKAuth: fcba1c9ede431683f5bdd84c835a96981cb115a5
   KakaoSDKCommon: 0912aa0c7db051ae8dc07a35395cf644f7728f95
@@ -73,6 +77,6 @@ SPEC CHECKSUMS:
   lottie-ios: 106e92eaf11fbed0a76590b4cdb9b5ec26123ff7
   NMapsMap: e6dbea85c2c195c7532deb637a5e90fd70f94fed
 
-PODFILE CHECKSUM: 523fd8887eac0ae36af5db7f65a2a49183ba53bd
+PODFILE CHECKSUM: f1c3f7e91aff5b23da950ba80ebd6eec0f67cd75
 
 COCOAPODS: 1.10.1
