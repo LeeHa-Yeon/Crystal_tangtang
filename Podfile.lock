@@ -36,6 +36,7 @@ PODS:
   - KakaoSDKUser (2.4.1):
     - KakaoSDKAuth (= 2.4.1)
     - KakaoSDKCommon (= 2.4.1)
+  - Kingfisher (6.2.1)
   - lottie-ios (3.2.1)
   - NMapsMap (3.11.0)
 
@@ -43,6 +44,7 @@ DEPENDENCIES:
   - Alamofire (~> 5.2)
   - FloatingPanel
   - KakaoSDK
+  - Kingfisher (~> 6.0)
   - lottie-ios
   - NMapsMap
 
@@ -59,6 +61,7 @@ SPEC REPOS:
     - KakaoSDKTalk
     - KakaoSDKTemplate
     - KakaoSDKUser
+    - Kingfisher
     - lottie-ios
     - NMapsMap
 
@@ -74,9 +77,10 @@ SPEC CHECKSUMS:
   KakaoSDKTalk: 749828662e4ac7a9f17bb1664b58526da289d18c
   KakaoSDKTemplate: 8bb288765bfc0195631da809b2d707f09495acdf
   KakaoSDKUser: 11955811d99d1ff1f1dfd5428afe69937e31ccef
+  Kingfisher: e71c6fac2aebb1262888cabc2cb13d313362a48f
   lottie-ios: 106e92eaf11fbed0a76590b4cdb9b5ec26123ff7
   NMapsMap: e6dbea85c2c195c7532deb637a5e90fd70f94fed
 
-PODFILE CHECKSUM: f1c3f7e91aff5b23da950ba80ebd6eec0f67cd75
+PODFILE CHECKSUM: 22c3f3b0428e84b8bc1ffa0c85e9005ccd9f0c21
 
 COCOAPODS: 1.10.1

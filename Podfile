@@ -11,5 +11,5 @@ target 'Crystal_tangtang' do
   pod 'NMapsMap'
   pod 'Alamofire', '~> 5.2'
   pod 'FloatingPanel'
-
+  pod 'Kingfisher', '~> 6.0'
 end
