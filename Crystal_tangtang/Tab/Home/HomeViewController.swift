@@ -10,9 +10,9 @@ import Lottie
 
 class HomeViewController: UIViewController {
     
-    let foodanimationView = AnimationView(name:"fork_knife")
-    let playanimationView = AnimationView(name:"gamepad")
-    let useranimationView = AnimationView(name:"user")
+    let foodanimationView = AnimationView(name:"food")
+    let playanimationView = AnimationView(name:"play")
+    let useranimationView = AnimationView(name:"person")
 
     @IBOutlet weak var foodView: UIView!
     @IBOutlet weak var playView: UIView!
