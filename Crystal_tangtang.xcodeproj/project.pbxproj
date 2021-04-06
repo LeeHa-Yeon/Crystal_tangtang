@@ -16,14 +16,14 @@
 		9F3144E82619A90000A47D94 /* LocationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3144E72619A90000A47D94 /* LocationInfo.swift */; };
 		9F3144EB2619ACF900A47D94 /* Location4TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3144EA2619ACF900A47D94 /* Location4TableViewController.swift */; };
 		9F3144EF2619AD4B00A47D94 /* Search2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3144EE2619AD4B00A47D94 /* Search2TableViewController.swift */; };
+		9F57D636261C5E2000D0331A /* play.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F57D635261C5E2000D0331A /* play.json */; };
+		9F57D639261C5EA600D0331A /* person.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F57D638261C5EA600D0331A /* person.json */; };
+		9F684DB2261C5CD000C26512 /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F684DB1261C5CD000C26512 /* food.json */; };
 		9F6EE3052607495D002A6663 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EE3042607495D002A6663 /* LoadingViewController.swift */; };
 		9F6EE30826074E8A002A6663 /* loadingAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EE30726074E8A002A6663 /* loadingAnimation.json */; };
 		9F6EE31526075D49002A6663 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EE31426075D49002A6663 /* MasterViewController.swift */; };
 		9F6EE31826075D64002A6663 /* Master.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EE31726075D64002A6663 /* Master.storyboard */; };
 		9F6EE31C26075DC8002A6663 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EE31B26075DC8002A6663 /* HomeViewController.swift */; };
-		9F6EE321260763AC002A6663 /* fork_knife.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EE320260763AC002A6663 /* fork_knife.json */; };
-		9F6EE324260766B1002A6663 /* gamepad.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EE323260766B1002A6663 /* gamepad.json */; };
-		9F6EE32726076744002A6663 /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EE32626076744002A6663 /* user.json */; };
 		9F6EE32D260777FE002A6663 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EE32C260777FE002A6663 /* UserViewController.swift */; };
 		9F74DC7C260617F00012ED28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74DC7B260617F00012ED28 /* AppDelegate.swift */; };
 		9F74DC7E260617F00012ED28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74DC7D260617F00012ED28 /* SceneDelegate.swift */; };
@@ -49,14 +49,14 @@
 		9F3144E72619A90000A47D94 /* LocationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfo.swift; sourceTree = "<group>"; };
 		9F3144EA2619ACF900A47D94 /* Location4TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location4TableViewController.swift; sourceTree = "<group>"; };
 		9F3144EE2619AD4B00A47D94 /* Search2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search2TableViewController.swift; sourceTree = "<group>"; };
+		9F57D635261C5E2000D0331A /* play.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = play.json; sourceTree = "<group>"; };
+		9F57D638261C5EA600D0331A /* person.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = person.json; sourceTree = "<group>"; };
+		9F684DB1261C5CD000C26512 /* food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = food.json; sourceTree = "<group>"; };
 		9F6EE3042607495D002A6663 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		9F6EE30726074E8A002A6663 /* loadingAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loadingAnimation.json; sourceTree = "<group>"; };
 		9F6EE31426075D49002A6663 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		9F6EE31726075D64002A6663 /* Master.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Master.storyboard; sourceTree = "<group>"; };
 		9F6EE31B26075DC8002A6663 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		9F6EE320260763AC002A6663 /* fork_knife.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fork_knife.json; sourceTree = "<group>"; };
-		9F6EE323260766B1002A6663 /* gamepad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gamepad.json; sourceTree = "<group>"; };
-		9F6EE32626076744002A6663 /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
 		9F6EE32C260777FE002A6663 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		9F74DC78260617F00012ED28 /* Crystal_tangtang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crystal_tangtang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F74DC7B260617F00012ED28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +101,7 @@
 		9F3144DB2619A13000A47D94 /* Location_re */ = {
 			isa = PBXGroup;
 			children = (
+				9FAA2C8C260888B000A53C15 /* Location */,
 				9F3144EA2619ACF900A47D94 /* Location4TableViewController.swift */,
 				9F3144EE2619AD4B00A47D94 /* Search2TableViewController.swift */,
 				9F3144E22619A22900A47D94 /* MapViewController.swift */,
@@ -113,12 +114,11 @@
 		9F6EE30C260759F3002A6663 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
-				9F3144DB2619A13000A47D94 /* Location_re */,
 				9F6EE31726075D64002A6663 /* Master.storyboard */,
 				9F6EE31426075D49002A6663 /* MasterViewController.swift */,
-				9FAA2C8C260888B000A53C15 /* Location */,
-				9F6EE32B260777D5002A6663 /* UserInfo */,
+				9F3144DB2619A13000A47D94 /* Location_re */,
 				9F6EE31A26075D9E002A6663 /* Home */,
+				9F6EE32B260777D5002A6663 /* UserInfo */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -126,9 +126,9 @@
 		9F6EE31A26075D9E002A6663 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				9F6EE32626076744002A6663 /* user.json */,
-				9F6EE320260763AC002A6663 /* fork_knife.json */,
-				9F6EE323260766B1002A6663 /* gamepad.json */,
+				9F57D638261C5EA600D0331A /* person.json */,
+				9F57D635261C5E2000D0331A /* play.json */,
+				9F684DB1261C5CD000C26512 /* food.json */,
 				9F6EE31B26075DC8002A6663 /* HomeViewController.swift */,
 			);
 			path = Home;
@@ -286,13 +286,13 @@
 				9F6EE31826075D64002A6663 /* Master.storyboard in Resources */,
 				9F74DC88260617F10012ED28 /* LaunchScreen.storyboard in Resources */,
 				9F74DC85260617F10012ED28 /* Assets.xcassets in Resources */,
-				9F6EE324260766B1002A6663 /* gamepad.json in Resources */,
-				9F6EE321260763AC002A6663 /* fork_knife.json in Resources */,
+				9F57D639261C5EA600D0331A /* person.json in Resources */,
 				9F6EE30826074E8A002A6663 /* loadingAnimation.json in Resources */,
 				9F0D8833261242FD00F15352 /* Location.storyboard in Resources */,
-				9F6EE32726076744002A6663 /* user.json in Resources */,
+				9F684DB2261C5CD000C26512 /* food.json in Resources */,
 				9F74DCAF2606192A0012ED28 /* Login.storyboard in Resources */,
 				9F74DCAC260619180012ED28 /* Loading.storyboard in Resources */,
+				9F57D636261C5E2000D0331A /* play.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
