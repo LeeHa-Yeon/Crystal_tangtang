@@ -520,12 +520,31 @@
                     </view>
                     <navigationItem key="navigationItem" title="카테고리 선택" id="yU6-dm-Ntz">
                         <barButtonItem key="backBarButtonItem" title="ㅎㅎ" id="OtR-wU-Oif"/>
-                        <barButtonItem key="rightBarButtonItem" title="Select" id="Qb1-XA-ZA0"/>
+                        <barButtonItem key="rightBarButtonItem" title="Select" id="Qb1-XA-ZA0">
+                            <connections>
+                                <segue destination="5BX-4o-PND" kind="presentation" id="G55-1R-0x9"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6jV-WO-1Yq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3414.9532710280373" y="-170.41036717062636"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ps8-U3-927">
+            <objects>
+                <viewController id="5BX-4o-PND" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VMo-2s-zra">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Eu9-Qn-tEk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vWx-f7-BDi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4318" y="6"/>
         </scene>
         <!--Master View Controller-->
         <scene sceneID="7EW-35-BGC">
@@ -878,7 +897,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ylq-g1-bfN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4850.467289719626" y="-599.35205183585322"/>
+            <point key="canvasLocation" x="4810" y="-827"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="H0E-4d-9IS">
