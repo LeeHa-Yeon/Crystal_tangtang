@@ -32,6 +32,7 @@
 		9F74DCAC260619180012ED28 /* Loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F74DCAB260619180012ED28 /* Loading.storyboard */; };
 		9F74DCAF2606192A0012ED28 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F74DCAE2606192A0012ED28 /* Login.storyboard */; };
 		9F74DCB2260619360012ED28 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74DCB1260619360012ED28 /* LoginViewController.swift */; };
+		9F915CCD261E194900CCE009 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F915CCC261E194900CCE009 /* SelectionViewController.swift */; };
 		9F9215142611D5F200805B3B /* Location2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9215132611D5F200805B3B /* Location2ViewController.swift */; };
 		9FAA2C8E260888C400A53C15 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAA2C8D260888C400A53C15 /* LocationViewController.swift */; };
 		9FDC20CD261B141100C4BDF3 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC20CC261B141100C4BDF3 /* UserInfo.swift */; };
@@ -67,6 +68,7 @@
 		9F74DCAB260619180012ED28 /* Loading.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Loading.storyboard; sourceTree = "<group>"; };
 		9F74DCAE2606192A0012ED28 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		9F74DCB1260619360012ED28 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9F915CCC261E194900CCE009 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 		9F9215132611D5F200805B3B /* Location2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location2ViewController.swift; sourceTree = "<group>"; };
 		9FAA2C8D260888C400A53C15 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		9FDC20CC261B141100C4BDF3 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				9F57D635261C5E2000D0331A /* play.json */,
 				9F684DB1261C5CD000C26512 /* food.json */,
 				9F6EE31B26075DC8002A6663 /* HomeViewController.swift */,
+				9F915CCC261E194900CCE009 /* SelectionViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				9F6EE31526075D49002A6663 /* MasterViewController.swift in Sources */,
 				9F0D881926123D9500F15352 /* LocationManager.swift in Sources */,
 				9F74DCB2260619360012ED28 /* LoginViewController.swift in Sources */,
+				9F915CCD261E194900CCE009 /* SelectionViewController.swift in Sources */,
 				9FDC20CD261B141100C4BDF3 /* UserInfo.swift in Sources */,
 				9F9215142611D5F200805B3B /* Location2ViewController.swift in Sources */,
 				9F0D883D26124F0B00F15352 /* SearchViewController.swift in Sources */,
