@@ -35,6 +35,7 @@
 		9F915CCD261E194900CCE009 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F915CCC261E194900CCE009 /* SelectionViewController.swift */; };
 		9F9215142611D5F200805B3B /* Location2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9215132611D5F200805B3B /* Location2ViewController.swift */; };
 		9FAA2C8E260888C400A53C15 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAA2C8D260888C400A53C15 /* LocationViewController.swift */; };
+		9FBD0E372623735D00E83F7A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD0E362623735D00E83F7A /* TestViewController.swift */; };
 		9FDC20CD261B141100C4BDF3 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC20CC261B141100C4BDF3 /* UserInfo.swift */; };
 		9FDC20D0261B8BAF00C4BDF3 /* Location4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC20CF261B8BAF00C4BDF3 /* Location4ViewController.swift */; };
 		9FDC20D3261B8C3D00C4BDF3 /* Search2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC20D2261B8C3D00C4BDF3 /* Search2ViewController.swift */; };
@@ -71,6 +72,7 @@
 		9F915CCC261E194900CCE009 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 		9F9215132611D5F200805B3B /* Location2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location2ViewController.swift; sourceTree = "<group>"; };
 		9FAA2C8D260888C400A53C15 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		9FBD0E362623735D00E83F7A /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		9FDC20CC261B141100C4BDF3 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		9FDC20CF261B8BAF00C4BDF3 /* Location4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location4ViewController.swift; sourceTree = "<group>"; };
 		9FDC20D2261B8C3D00C4BDF3 /* Search2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search2ViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				9F684DB1261C5CD000C26512 /* food.json */,
 				9F6EE31B26075DC8002A6663 /* HomeViewController.swift */,
 				9F915CCC261E194900CCE009 /* SelectionViewController.swift */,
+				9FBD0E362623735D00E83F7A /* TestViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				9F74DCB2260619360012ED28 /* LoginViewController.swift in Sources */,
 				9F915CCD261E194900CCE009 /* SelectionViewController.swift in Sources */,
 				9FDC20CD261B141100C4BDF3 /* UserInfo.swift in Sources */,
+				9FBD0E372623735D00E83F7A /* TestViewController.swift in Sources */,
 				9F9215142611D5F200805B3B /* Location2ViewController.swift in Sources */,
 				9F0D883D26124F0B00F15352 /* SearchViewController.swift in Sources */,
 				9F3144E82619A90000A47D94 /* LocationInfo.swift in Sources */,

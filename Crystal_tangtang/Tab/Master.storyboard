@@ -488,20 +488,35 @@
                                 <rect key="frame" x="0.0" y="88" width="428" height="804"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="yxC-lT-Riz">
-                                    <size key="itemSize" width="10" height="10"/>
+                                    <size key="itemSize" width="200" height="200"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="30" minY="30" maxX="30" maxY="20"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="myCell" id="6JJ-YC-JN7" customClass="MyCell" customModule="Crystal_tangtang" customModuleProvider="target">
-                                        <rect key="frame" x="30" y="30" width="10" height="10"/>
+                                        <rect key="frame" x="114" y="30" width="200" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="eN1-gd-HaH">
-                                            <rect key="frame" x="0.0" y="0.0" width="10" height="10"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSq-D2-G0d">
+                                                    <rect key="frame" x="79" y="89.666666666666671" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="fSq-D2-G0d" firstAttribute="centerX" secondItem="eN1-gd-HaH" secondAttribute="centerX" id="J1x-G9-Jx7"/>
+                                                <constraint firstItem="fSq-D2-G0d" firstAttribute="centerY" secondItem="eN1-gd-HaH" secondAttribute="centerY" id="gj3-nS-pq7"/>
+                                            </constraints>
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                        <connections>
+                                            <outlet property="typeLabel" destination="fSq-D2-G0d" id="C1M-JE-vHr"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -528,7 +543,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Select" id="Qb1-XA-ZA0">
                             <connections>
-                                <segue destination="bfA-Fu-qX9" kind="presentation" id="1Uy-nY-vDT"/>
+                                <segue destination="tFt-c1-8LI" kind="presentation" modalPresentationStyle="fullScreen" id="1Uy-nY-vDT"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -540,20 +555,100 @@
             </objects>
             <point key="canvasLocation" x="3414.9532710280373" y="-170.41036717062636"/>
         </scene>
-        <!--View Controller-->
+        <!--가게 리스트 화면-->
         <scene sceneID="bBO-nv-MaH">
             <objects>
-                <viewController id="bfA-Fu-qX9" sceneMemberID="viewController">
+                <viewController id="bfA-Fu-qX9" customClass="TestViewController" customModule="Crystal_tangtang" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n7l-d2-GVl">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mYV-Ag-KOH">
+                                <rect key="frame" x="59" y="138" width="310" height="310"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="310" id="DZp-fb-vOh"/>
+                                    <constraint firstAttribute="width" secondItem="mYV-Ag-KOH" secondAttribute="height" multiplier="1:1" id="cza-Uo-Vim"/>
+                                </constraints>
+                            </mapView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="kxk-2b-8Bh">
+                                <rect key="frame" x="29" y="533" width="370" height="370"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="370" id="6mT-Oy-zXl"/>
+                                    <constraint firstAttribute="width" secondItem="kxk-2b-8Bh" secondAttribute="height" id="RNc-ec-3uw"/>
+                                </constraints>
+                                <collectionViewLayout key="collectionViewLayout" id="knk-IM-PUr"/>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="testCell" id="xlv-QM-4YX" customClass="TestCell" customModule="Crystal_tangtang" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gDU-oc-oKB">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                        <color key="backgroundColor" red="1" green="0.60384220180000003" blue="0.14103634670000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gzh-JN-apC">
+                                <rect key="frame" x="144" y="404" width="134" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.60384220179141657" blue="0.1410363466757476" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="자세히보기">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cdx-Wh-d1h">
+                                <rect key="frame" x="151" y="848" width="126" height="30"/>
+                                <state key="normal" title="음식점도 골라주세요!">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bED-Pa-xCT">
+                                <rect key="frame" x="40" y="478" width="348" height="35"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TODO :해시태그 위치" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKY-fF-wK9">
+                                        <rect key="frame" x="0.0" y="0.0" width="348" height="35"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.91150621672361198" blue="0.79879249946372621" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="gKY-fF-wK9" secondAttribute="bottom" id="2OG-Ep-eMG"/>
+                                    <constraint firstItem="gKY-fF-wK9" firstAttribute="top" secondItem="bED-Pa-xCT" secondAttribute="top" id="4z7-FN-Qid"/>
+                                    <constraint firstItem="gKY-fF-wK9" firstAttribute="leading" secondItem="bED-Pa-xCT" secondAttribute="leading" id="RJ1-JX-Ahb"/>
+                                    <constraint firstAttribute="height" constant="35" id="heJ-xL-xLY"/>
+                                    <constraint firstAttribute="trailing" secondItem="gKY-fF-wK9" secondAttribute="trailing" id="rKU-VO-RvR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="y1f-vg-KEw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mYV-Ag-KOH" firstAttribute="centerX" secondItem="n7l-d2-GVl" secondAttribute="centerX" id="0KR-o7-aCQ"/>
+                            <constraint firstItem="bED-Pa-xCT" firstAttribute="top" secondItem="mYV-Ag-KOH" secondAttribute="bottom" constant="30" id="0ms-Rm-AHe"/>
+                            <constraint firstItem="kxk-2b-8Bh" firstAttribute="top" secondItem="bED-Pa-xCT" secondAttribute="bottom" constant="20" id="13P-vh-BdU"/>
+                            <constraint firstItem="y1f-vg-KEw" firstAttribute="trailing" secondItem="bED-Pa-xCT" secondAttribute="trailing" constant="40" id="1p7-gT-Mbf"/>
+                            <constraint firstItem="mYV-Ag-KOH" firstAttribute="top" secondItem="y1f-vg-KEw" secondAttribute="top" constant="50" id="GEe-G1-Y3F"/>
+                            <constraint firstItem="Cdx-Wh-d1h" firstAttribute="centerY" secondItem="n7l-d2-GVl" secondAttribute="centerY" constant="400" id="hMh-YG-ulf"/>
+                            <constraint firstItem="bED-Pa-xCT" firstAttribute="leading" secondItem="y1f-vg-KEw" secondAttribute="leading" constant="40" id="kpc-Sl-cAQ"/>
+                            <constraint firstItem="kxk-2b-8Bh" firstAttribute="centerX" secondItem="n7l-d2-GVl" secondAttribute="centerX" id="q3H-YA-53F"/>
+                            <constraint firstItem="Cdx-Wh-d1h" firstAttribute="centerX" secondItem="n7l-d2-GVl" secondAttribute="centerX" id="wK0-3f-NJq"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="가게 리스트 화면" id="2i3-qe-trS">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.backward" catalog="system" id="Wob-De-egr"/>
+                        <barButtonItem key="rightBarButtonItem" title="다시 설정" id="D8R-fB-FRU"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="kxk-2b-8Bh" id="hdU-ey-eyI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PsN-zs-XVa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4162" y="-170"/>
+            <point key="canvasLocation" x="5056.5420560747662" y="-170.41036717062636"/>
         </scene>
         <!--Master View Controller-->
         <scene sceneID="7EW-35-BGC">
@@ -848,7 +943,7 @@
                     <navigationItem key="navigationItem" title="주소" id="faG-vh-MI7">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="arrow.backward" catalog="system" id="f0H-Ez-FSo">
                             <connections>
-                                <action selector="back:" destination="Qbc-jG-zv4" id="cyL-sE-hT0"/>
+                                <action selector="backButton:" destination="Qbc-jG-zv4" id="IDm-YH-q6W"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -987,12 +1082,31 @@
             </objects>
             <point key="canvasLocation" x="2566.8224299065419" y="-170.41036717062636"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="f3T-4U-boO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tFt-c1-8LI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="brv-Ct-qL3">
+                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bfA-Fu-qX9" kind="relationship" relationship="rootViewController" id="d6E-kY-ISZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a8y-5I-Swf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4160.7476635514013" y="-170.41036717062636"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="WXb-9A-5DA"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.backward" catalog="system" width="128" height="98"/>
+        <image name="chevron.backward" catalog="system" width="96" height="128"/>
         <image name="face.dashed" catalog="system" width="128" height="121"/>
         <image name="face.smiling" catalog="system" width="128" height="121"/>
         <image name="face.smiling.fill" catalog="system" width="128" height="121"/>
