@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>764085031363-ubfh6g7df0rj4hjru8gga8ssrl11sms9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.764085031363-ubfh6g7df0rj4hjru8gga8ssrl11sms9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAjW2rFqwzCmp3KUTZP7HxhCfwDd-CqQ28</string>
+	<key>GCM_SENDER_ID</key>
+	<string>764085031363</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>iOSHaYeonStudy.Crystal-tangtang</string>
+	<key>PROJECT_ID</key>
+	<string>crystal-tangtang</string>
+	<key>STORAGE_BUCKET</key>
+	<string>crystal-tangtang.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:764085031363:ios:c416bc5c1d2bf1ec822d76</string>
+</dict>
+</plist>

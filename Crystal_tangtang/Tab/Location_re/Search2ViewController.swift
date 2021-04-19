@@ -9,6 +9,13 @@ import UIKit
 
 class Search2ViewController: UIViewController {
 
+    
+
+    @IBAction func back2Button(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

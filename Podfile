@@ -12,4 +12,8 @@ target 'Crystal_tangtang' do
   pod 'Alamofire', '~> 5.2'
   pod 'FloatingPanel'
   pod 'Kingfisher', '~> 6.0'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Database'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Auth'
 end

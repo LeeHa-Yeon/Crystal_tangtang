@@ -28,7 +28,6 @@ class SelectionViewController: UIViewController{
 
 extension SelectionViewController : UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        print(typeList.count)
         return typeList.count
     }
     
@@ -36,6 +35,8 @@ extension SelectionViewController : UICollectionViewDataSource {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "myCell", for: indexPath) as? MyCell else {
             return UICollectionViewCell()
         }
+        
+        cell.typeLabel.text! = typeList[indexPath.row]
         
         return cell
     }
