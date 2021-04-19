@@ -16,6 +16,10 @@
 		9F3144E82619A90000A47D94 /* LocationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3144E72619A90000A47D94 /* LocationInfo.swift */; };
 		9F3144EB2619ACF900A47D94 /* Location4TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3144EA2619ACF900A47D94 /* Location4TableViewController.swift */; };
 		9F3144EF2619AD4B00A47D94 /* Search2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3144EE2619AD4B00A47D94 /* Search2TableViewController.swift */; };
+		9F46E7F7262E0230009F3970 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F46E7F6262E0230009F3970 /* GoogleService-Info.plist */; };
+		9F46E815262E0586009F3970 /* FirebaseTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F46E814262E0586009F3970 /* FirebaseTestViewController.swift */; };
+		9F46E858262E0F6C009F3970 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F46E857262E0F6C009F3970 /* TestModel.swift */; };
+		9F46E85B262E1098009F3970 /* FirebaseStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F46E85A262E1098009F3970 /* FirebaseStoryboard.storyboard */; };
 		9F57D636261C5E2000D0331A /* play.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F57D635261C5E2000D0331A /* play.json */; };
 		9F57D639261C5EA600D0331A /* person.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F57D638261C5EA600D0331A /* person.json */; };
 		9F684DB2261C5CD000C26512 /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F684DB1261C5CD000C26512 /* food.json */; };
@@ -51,6 +55,10 @@
 		9F3144E72619A90000A47D94 /* LocationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfo.swift; sourceTree = "<group>"; };
 		9F3144EA2619ACF900A47D94 /* Location4TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location4TableViewController.swift; sourceTree = "<group>"; };
 		9F3144EE2619AD4B00A47D94 /* Search2TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search2TableViewController.swift; sourceTree = "<group>"; };
+		9F46E7F6262E0230009F3970 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F46E814262E0586009F3970 /* FirebaseTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTestViewController.swift; sourceTree = "<group>"; };
+		9F46E857262E0F6C009F3970 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		9F46E85A262E1098009F3970 /* FirebaseStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirebaseStoryboard.storyboard; sourceTree = "<group>"; };
 		9F57D635261C5E2000D0331A /* play.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = play.json; sourceTree = "<group>"; };
 		9F57D638261C5EA600D0331A /* person.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = person.json; sourceTree = "<group>"; };
 		9F684DB1261C5CD000C26512 /* food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = food.json; sourceTree = "<group>"; };
@@ -98,6 +106,7 @@
 				9F0D881826123D9500F15352 /* LocationManager.swift */,
 				9F3144E72619A90000A47D94 /* LocationInfo.swift */,
 				9FDC20CC261B141100C4BDF3 /* UserInfo.swift */,
+				9F46E857262E0F6C009F3970 /* TestModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -113,6 +122,15 @@
 				9FDC20D2261B8C3D00C4BDF3 /* Search2ViewController.swift */,
 			);
 			path = Location_re;
+			sourceTree = "<group>";
+		};
+		9F46E813262E04A9009F3970 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				9F46E814262E0586009F3970 /* FirebaseTestViewController.swift */,
+				9F46E85A262E1098009F3970 /* FirebaseStoryboard.storyboard */,
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 		9F6EE30C260759F3002A6663 /* Tab */ = {
@@ -169,6 +187,7 @@
 		9F74DC7A260617F00012ED28 /* Crystal_tangtang */ = {
 			isa = PBXGroup;
 			children = (
+				9F46E813262E04A9009F3970 /* Firebase */,
 				9F74DC7B260617F00012ED28 /* AppDelegate.swift */,
 				9F74DC7D260617F00012ED28 /* SceneDelegate.swift */,
 				9F0D881726123C6E00F15352 /* Model */,
@@ -177,6 +196,7 @@
 				9F6EE30C260759F3002A6663 /* Tab */,
 				9F74DC84260617F10012ED28 /* Assets.xcassets */,
 				9F74DC86260617F10012ED28 /* LaunchScreen.storyboard */,
+				9F46E7F6262E0230009F3970 /* GoogleService-Info.plist */,
 				9F74DC89260617F10012ED28 /* Info.plist */,
 			);
 			path = Crystal_tangtang;
@@ -297,7 +317,9 @@
 				9F0D8833261242FD00F15352 /* Location.storyboard in Resources */,
 				9F684DB2261C5CD000C26512 /* food.json in Resources */,
 				9F74DCAF2606192A0012ED28 /* Login.storyboard in Resources */,
+				9F46E7F7262E0230009F3970 /* GoogleService-Info.plist in Resources */,
 				9F74DCAC260619180012ED28 /* Loading.storyboard in Resources */,
+				9F46E85B262E1098009F3970 /* FirebaseStoryboard.storyboard in Resources */,
 				9F57D636261C5E2000D0331A /* play.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +378,7 @@
 				9F6EE31526075D49002A6663 /* MasterViewController.swift in Sources */,
 				9F0D881926123D9500F15352 /* LocationManager.swift in Sources */,
 				9F74DCB2260619360012ED28 /* LoginViewController.swift in Sources */,
+				9F46E858262E0F6C009F3970 /* TestModel.swift in Sources */,
 				9F915CCD261E194900CCE009 /* SelectionViewController.swift in Sources */,
 				9FDC20CD261B141100C4BDF3 /* UserInfo.swift in Sources */,
 				9FBD0E372623735D00E83F7A /* TestViewController.swift in Sources */,
@@ -371,6 +394,7 @@
 				9FDC20D3261B8C3D00C4BDF3 /* Search2ViewController.swift in Sources */,
 				9F3144EF2619AD4B00A47D94 /* Search2TableViewController.swift in Sources */,
 				9F3144E32619A22900A47D94 /* MapViewController.swift in Sources */,
+				9F46E815262E0586009F3970 /* FirebaseTestViewController.swift in Sources */,
 				9FAA2C8E260888C400A53C15 /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

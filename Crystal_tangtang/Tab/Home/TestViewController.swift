@@ -12,6 +12,11 @@ class TestViewController: UIViewController {
     
     let nameList = ["hello", "monday", "set"]
     
+    
+    @IBAction func back3Button(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
