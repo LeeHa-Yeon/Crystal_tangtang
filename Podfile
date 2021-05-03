@@ -16,4 +16,5 @@ target 'Crystal_tangtang' do
   pod 'Firebase/Database'
   pod 'Firebase/Firestore'
   pod 'Firebase/Auth'
+  pod 'Socket.IO-Client-Swift', '~> 15.2.0'
 end

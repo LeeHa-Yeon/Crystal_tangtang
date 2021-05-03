@@ -17,6 +17,7 @@ class LoadingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        SocketIOManager.shared.establishConnection()
         //메인 뷰에 삽입
         view.addSubview(animationView)
         animationView.frame = CGRect(x:0, y:0, width:500, height:300)
