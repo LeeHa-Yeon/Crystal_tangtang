@@ -378,6 +378,9 @@ PODS:
   - nanopb/encode (2.30908.0)
   - NMapsMap (3.11.0)
   - PromisesObjC (1.2.12)
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
@@ -390,6 +393,7 @@ DEPENDENCIES:
   - Kingfisher (~> 6.0)
   - lottie-ios
   - NMapsMap
+  - Socket.IO-Client-Swift (~> 15.2.0)
 
 SPEC REPOS:
   trunk:
@@ -426,6 +430,8 @@ SPEC REPOS:
     - nanopb
     - NMapsMap
     - PromisesObjC
+    - Socket.IO-Client-Swift
+    - Starscream
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
@@ -461,7 +467,9 @@ SPEC CHECKSUMS:
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   NMapsMap: e6dbea85c2c195c7532deb637a5e90fd70f94fed
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
 
-PODFILE CHECKSUM: 3f54df032c773b960ad444a42d3b1b36ff941e89
+PODFILE CHECKSUM: 837870f13b859121e9901d93682c673352712ea1
 
 COCOAPODS: 1.10.1

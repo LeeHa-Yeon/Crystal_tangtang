@@ -29,6 +29,7 @@
 		9F6EE31826075D64002A6663 /* Master.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6EE31726075D64002A6663 /* Master.storyboard */; };
 		9F6EE31C26075DC8002A6663 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EE31B26075DC8002A6663 /* HomeViewController.swift */; };
 		9F6EE32D260777FE002A6663 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EE32C260777FE002A6663 /* UserViewController.swift */; };
+		9F70AA8C264067D300126FEC /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F70AA8B264067D300126FEC /* SocketIOManager.swift */; };
 		9F74DC7C260617F00012ED28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74DC7B260617F00012ED28 /* AppDelegate.swift */; };
 		9F74DC7E260617F00012ED28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74DC7D260617F00012ED28 /* SceneDelegate.swift */; };
 		9F74DC85260617F10012ED28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F74DC84260617F10012ED28 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		9F74DCB2260619360012ED28 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F74DCB1260619360012ED28 /* LoginViewController.swift */; };
 		9F915CCD261E194900CCE009 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F915CCC261E194900CCE009 /* SelectionViewController.swift */; };
 		9F9215142611D5F200805B3B /* Location2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9215132611D5F200805B3B /* Location2ViewController.swift */; };
+		9F9CDBAA2637812000E5C255 /* ChattingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CDBA92637812000E5C255 /* ChattingModel.swift */; };
 		9FAA2C8E260888C400A53C15 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAA2C8D260888C400A53C15 /* LocationViewController.swift */; };
 		9FBD0E372623735D00E83F7A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD0E362623735D00E83F7A /* TestViewController.swift */; };
 		9FDC20CD261B141100C4BDF3 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDC20CC261B141100C4BDF3 /* UserInfo.swift */; };
@@ -68,6 +70,7 @@
 		9F6EE31726075D64002A6663 /* Master.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Master.storyboard; sourceTree = "<group>"; };
 		9F6EE31B26075DC8002A6663 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9F6EE32C260777FE002A6663 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		9F70AA8B264067D300126FEC /* SocketIOManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
 		9F74DC78260617F00012ED28 /* Crystal_tangtang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crystal_tangtang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F74DC7B260617F00012ED28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F74DC7D260617F00012ED28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +82,7 @@
 		9F74DCB1260619360012ED28 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9F915CCC261E194900CCE009 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
 		9F9215132611D5F200805B3B /* Location2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location2ViewController.swift; sourceTree = "<group>"; };
+		9F9CDBA92637812000E5C255 /* ChattingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChattingModel.swift; sourceTree = "<group>"; };
 		9FAA2C8D260888C400A53C15 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		9FBD0E362623735D00E83F7A /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		9FDC20CC261B141100C4BDF3 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
@@ -107,6 +111,7 @@
 				9F3144E72619A90000A47D94 /* LocationInfo.swift */,
 				9FDC20CC261B141100C4BDF3 /* UserInfo.swift */,
 				9F46E857262E0F6C009F3970 /* TestModel.swift */,
+				9F9CDBA92637812000E5C255 /* ChattingModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -166,6 +171,14 @@
 			path = UserInfo;
 			sourceTree = "<group>";
 		};
+		9F70AA892640678400126FEC /* SocketServer */ = {
+			isa = PBXGroup;
+			children = (
+				9F70AA8B264067D300126FEC /* SocketIOManager.swift */,
+			);
+			path = SocketServer;
+			sourceTree = "<group>";
+		};
 		9F74DC6F260617F00012ED28 = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +200,7 @@
 		9F74DC7A260617F00012ED28 /* Crystal_tangtang */ = {
 			isa = PBXGroup;
 			children = (
+				9F70AA892640678400126FEC /* SocketServer */,
 				9F46E813262E04A9009F3970 /* Firebase */,
 				9F74DC7B260617F00012ED28 /* AppDelegate.swift */,
 				9F74DC7D260617F00012ED28 /* SceneDelegate.swift */,
@@ -374,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6EE32D260777FE002A6663 /* UserViewController.swift in Sources */,
+				9F9CDBAA2637812000E5C255 /* ChattingModel.swift in Sources */,
 				9F0D883B26124E5900F15352 /* Location3ViewController.swift in Sources */,
 				9F6EE31526075D49002A6663 /* MasterViewController.swift in Sources */,
 				9F0D881926123D9500F15352 /* LocationManager.swift in Sources */,
@@ -393,6 +408,7 @@
 				9FDC20D0261B8BAF00C4BDF3 /* Location4ViewController.swift in Sources */,
 				9FDC20D3261B8C3D00C4BDF3 /* Search2ViewController.swift in Sources */,
 				9F3144EF2619AD4B00A47D94 /* Search2TableViewController.swift in Sources */,
+				9F70AA8C264067D300126FEC /* SocketIOManager.swift in Sources */,
 				9F3144E32619A22900A47D94 /* MapViewController.swift in Sources */,
 				9F46E815262E0586009F3970 /* FirebaseTestViewController.swift in Sources */,
 				9FAA2C8E260888C400A53C15 /* LocationViewController.swift in Sources */,

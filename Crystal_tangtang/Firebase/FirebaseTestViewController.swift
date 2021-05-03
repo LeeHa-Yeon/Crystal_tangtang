@@ -18,7 +18,7 @@ class FirebaseTestViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        saveTest()
+        //saveTest()
         readFireBaseData()
         
         //        for student in oopsla {
@@ -28,13 +28,13 @@ class FirebaseTestViewController: UIViewController {
     }
     
     func saveTest(){
-        let test = TestModel(testName: "gkdus2")
-        db.child("Second").setValue(test.toDictionary)
+        let test = TestModel(testName: "서경이")
+        db.child("New").setValue(test.toDictionary)
     }
     
     func readFireBaseData(){
         
-        db.child("Second").observeSingleEvent(of: .value) { snapshot in
+        db.child("New").observeSingleEvent(of: .value) { snapshot in
             if !snapshot.hasChildren()  {
                 //데이터가 없으면 해야할 행동
                 print("don't have review data")
@@ -50,4 +50,31 @@ class FirebaseTestViewController: UIViewController {
             }
         }
     }
+    
+    func saveChatting(){
+        let test = ChattingModel(RoomName: "룸1")
+        db.child("New").setValue(test.toDictionary)
+    }
+    
+    func readChatting(){
+        
+        db.child("New").observeSingleEvent(of: .value) { snapshot in
+            if !snapshot.hasChildren()  {
+                //데이터가 없으면 해야할 행동
+                print("don't have review data")
+                return
+            }
+            do{
+                let jsonData = try JSONSerialization.data(withJSONObject: snapshot.value!, options: [])
+                let json = try JSONDecoder().decode(TestModel.self, from: jsonData)
+                print("--> \(json.testName)")
+                
+            }catch let error{
+                print("parsed error —> \(error.localizedDescription)")
+            }
+        }
+    }
+    
+    
+    
 }
